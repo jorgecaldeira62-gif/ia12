@@ -41,7 +41,7 @@ jobs:
       - name: Init TWA
         run: |
           mkdir -p apk-build && cd apk-build
-          bubblewrap init --manifest "https://b2059ad7-6ee4-44d0-b2ea-47edce418587-00-f6f3cqyyyrqy.spock.replit.dev/assistente/manifest.webmanifest" --directory . --skipPwaValidation 2>&1 || true
+          bubblewrap init --manifest "https://jorgecaldeira62-gif.github.io/ia12/manifest.webmanifest" --directory . --skipPwaValidation 2>&1 || true
 
       - name: Build APK
         working-directory: apk-build
