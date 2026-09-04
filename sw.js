@@ -1,6 +1,6 @@
 // Service Worker — gerado automaticamente
 const CACHE = 'pwa-v1';
-const SHELL = ['/assistente/'];
+const SHELL = ['/ia12/'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)));
   self.skipWaiting();
